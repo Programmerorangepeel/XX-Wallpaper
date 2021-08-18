@@ -1,0 +1,239 @@
+/* 这里面写的是公共样式 */
+
+/* 头部标题 */
+.imglogo {
+	width: 40px;
+	height: 40px;
+	padding-top: 1px;
+
+}
+/* 搜素区域 */
+.layui-nav-item input {
+	float: left;
+	width: 620px;
+	height: 35px;
+	border: 1px solid #20BD9A;
+	border-radius: 4px 0 0 4px;
+	font-size: 14px;
+	/* 取消默认的边框线颜色（外线是文本框特有的东西） */
+	outline: none;
+	padding-left: 10px;
+}
+.layui-nav-item .btn{
+	 float: left; 
+	 width: 50px;
+	 height: 35px;
+	 background-color: #20BD9A;
+	 border-radius: 0 4px 4px 0;
+}
+/* 搜索图标 */
+.layui-nav-item i {
+	position: absolute;
+	right: 12px;
+	margin-top: -10px;
+	font-size: 25px;
+	color: #FFFFFF;
+}
+.icon {
+	width: 40px;
+	height: 40px;
+	vertical-align: -0.15em;
+	fill: currentColor;
+	overflow: hidden;
+}
+
+/* 小导航条 */
+.classify {
+	max-width: 100%;
+	height: 50px;
+	margin-top: 10px;
+	text-align: center;
+	background: #fff;
+	padding: 10px 0;
+
+}
+
+.classify a {
+	margin-right: 60px;
+	font-size: 16px;
+
+}
+
+.classify a:hover {
+	color: #009688;
+}
+
+/* layui返回顶部 */
+
+.layui-fixbar {
+	position: fixed;
+	right: 15px;
+	bottom: 15px;
+	z-index: 999999;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.lement.style {
+	display: list-item;
+}
+
+.layui-fixbar li {
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	margin-bottom: 30px;
+	text-align: center;
+	cursor: pointer;
+	font-size: 30px;
+	background-color: black;
+	color: #fff;
+	border-radius: 30px;
+	opacity: .95;
+}
+
+.layui-icon {
+	font-family: layui-icon !important;
+	font-size: 16px;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+li {
+	list-style: none;
+}
+
+/* layui返回顶部 end*/
+/* 使用伪类元素 */
+.clearfix:after {
+	content: '.';
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+	font-size: 0;
+	line-height: 0;
+}
+
+/* 图片预览列表 */
+.img-box {
+	padding: 20px 0px 10px 120px;
+}
+
+.img-box div span img {
+	width: 360px;
+	height: 240px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	border-radius: 30px;
+}
+
+/* 鼠标悬浮时缩小 */
+.img-box div span img:hover {
+	transform: scale(0.9);
+	-ms-transform: scale(1.5);
+}
+
+/* 分页模块 */
+.page {
+	height: 38px;
+	text-align: center;
+	padding: 10px 0 20px;
+}
+
+.page a:hover,
+.page b {
+	background: #63B504;
+	border: 1px solid #63B504;
+	color: #fff;
+	text-decoration: none;
+}
+
+.page a,
+.page a:visited,
+.page b,
+.page>input {
+	background: #fff;
+	padding: 0 16px;
+	border: 1px solid #ddd;
+	display: inline-block;
+	height: 36px;
+	line-height: 36px;
+	margin: 0 4px 0 5px;
+	font-size: 14px;
+	border-radius: 3px;
+}
+
+/* 底部样式文件 */
+footer {
+	width: 100%;
+	height: 240px;
+	background-color: #232323;
+	margin: auto;
+	margin-top: 30px;
+}
+
+.footer .center {
+	float: left;
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 26px;
+}
+
+footer .center h2 {
+	padding-top: 15px;
+	color: white;
+	margin-left: 10px;
+}
+
+footer .center .friend-links ul {
+	padding-top: 10px;
+	overflow: hidden;
+}
+
+footer .center .friend-links li {
+	float: left;
+	padding: 0 50px;
+}
+
+footer .center .friend-links li a {
+	color: white;
+	font-size: 16px;
+}
+
+footer .center address {
+	font-style: normal;
+	padding-top: 5px;
+}
+
+footer .center address ul {
+	width: 730px;
+	padding-top: 20px;
+	margin-left: 50px;
+}
+
+footer .center address ul li {
+	color: white;
+	float: left;
+	width: 237px;
+	margin-bottom: 20px;
+}
+
+footer .center address ul li a {
+	color: white;
+}
+
+/* 二维码模块 */
+.web-index img {
+	width: 450px;
+	height: 220px;
+	position: absolute;
+	right: 200px;
+	top: 3298px;
+	border-radius: 15px;
+}

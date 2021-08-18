@@ -1,0 +1,41 @@
+/* 这里存放我的样式 */
+.Xx{
+	color: white;
+}
+/* 搜索框 */
+.layui-inline{
+	margin-left: 40px;
+	
+}
+.layui-inline input{
+	position: relative;
+	width: 680px;
+	height: 35px;
+	border: 1px solid #20BD9A;
+	border-radius: 4px 0 0 4px;
+	font-size: 14px;
+	/* 取消默认的边框线颜色（外线是文本框特有的东西） */
+	outline: none;
+	padding-left: 10px;
+}
+.layui-btn{
+	position: absolute;
+	width: 50px;
+	height: 35px;
+	top: 12.5px;
+	background-color: #20BD9A;
+	border-radius: 0 4px 4px 0;
+}
+.layui-btn i {
+	position: absolute;
+	right: 12px;
+	margin-top: -18px;
+	font-size: 25px;
+	color: #FFFFFF;
+	
+}
+/* 内容区域 */
+.layui-bg-gray{
+	padding: 30px;
+	height: 100%;
+}

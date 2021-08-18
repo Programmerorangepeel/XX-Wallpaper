@@ -1,0 +1,224 @@
+/* 这里面写的是注册样式 */
+body{
+    width: 100%;
+    height: 100%;
+    background-image:url(../轮播图img/b62b444a880511ebb6edd017c2d2eca2.jpg)
+}
+
+/* 头部标题 */
+.imglogo{
+	width: 40px;
+	height: 40px;
+	padding-top: 1px;
+	
+}
+/* 导航条 */
+.search {
+	width: 700px;
+	height: 45px;
+	margin-right: 20px;
+	border: 1px solid #000000;
+	border-radius: 25px; 
+}
+.layui-nav-item i{
+	position: absolute;
+	right: 40px;
+	
+}
+
+.icon {
+	width: 40px;
+	height: 40px;
+	vertical-align: -0.15em;
+	fill: currentColor;
+	overflow: hidden;
+}
+.maina{
+	margin-bottom: 300px;
+}
+.main_a{
+    width: 1050px;
+	height: 500px;
+    background: #fff;
+    border-radius: 25px;
+    overflow: hidden;
+    padding: 160px 130px 33px 95px;
+    position: relative;
+    top: 100px;
+    left: 320px;
+	
+}
+.main_lf{
+	width: 400px;
+	height: 400px;
+	margin-left: 30px;
+	float: left;
+}
+.main_lf img{
+    position: relative;
+    top: -70px;
+	left: -60px;
+	border-radius: 40px;
+}
+.main_lf h2{
+   position: relative;
+   left: 20px;
+   font-size: 40px;
+   font-weight: 600;
+   top: -40px;
+}
+.form{
+	margin-top: -15px;
+	margin-left: 30px;
+}
+.main_b{
+	 width: 350px;
+     height: 400px;
+     display: inline-block;
+     float: left;
+	 margin-left: 45px;
+	 margin-top: -100px;
+}
+.main_b span{
+    font-size: 40px;
+	font-weight: 600;
+    color: #333333;
+    margin-left: 80px;
+    width: 100%;
+	margin-bottom: 20px;	
+}
+.input_iphone{
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+.input_iphone input{
+    font-size: 15px;
+    line-height: 1.5;
+    color: #666666;
+    display: block;
+    width: 100%;
+    background: #e6e6e6;
+    height: 50px;
+    border-radius: 18px;
+    padding: 0 30px 0 68px;
+    border: none;
+}
+.input_iphone span{
+	position: relative;
+	left: 250px;
+	top: -35px;
+	font-size: 16px;
+	display: none;
+}
+.input_pwd{
+    margin-top: 10px;
+	margin-bottom: 15px;
+}
+.input_pwd input{
+    font-size: 15px;
+    line-height: 1.5;
+    color: #666666;
+    display: block;
+    width: 100%;
+    background: #e6e6e6;
+    height: 50px;
+    border-radius: 18px;
+    padding: 0 30px 0 68px;
+    border: none;
+}
+.input_pwd span{
+	position: relative;
+	left: 250px;
+	top: -35px;
+	font-size: 16px;
+	display: none;
+}
+.register{
+   margin-top: 10px;
+   margin-bottom: 30px;
+}
+.register_button{
+    border: none;     
+    font-size: 15px;
+    line-height: 1.5;
+    color: #fff;
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    background: #57b846;
+}
+.agreement{
+	margin-left: 30px;
+	margin-top: -20px;
+	color: #000000;
+	font-size: 16px;
+}
+.agreement a{
+	color: #0000FF;
+}
+.register_Sign{
+    position: relative;
+    left: 300px;
+	font-size: 16px;
+}
+.register_Sign in a:hover{
+	color: #009688;
+}
+
+/* 底部样式文件 */
+footer {
+	width: 100%;
+	height: 240px;
+	background-color: #232323;
+	margin: auto;
+	margin-top: 30px;
+}
+.footer .center{
+	float: left;
+	width: 100%;
+	margin:  0 auto;
+	padding-top: 26px;
+}
+footer .center h2{
+	padding-top: 15px;
+	color: white;
+	margin-left: 10px;
+}
+footer .center .friend-links ul{
+	padding-top: 10px;
+	overflow: hidden;
+}
+footer .center .friend-links li{
+	float: left;
+	padding: 0 50px;
+}
+footer .center .friend-links li a{
+	color: white;
+	font-size: 16px;
+}
+footer .center address{
+	font-style: normal;
+	padding-top: 5px;
+}
+footer .center address ul{
+	width: 730px;
+	padding-top: 20px;
+	margin-left: 50px;
+}
+footer .center address ul li{
+	color: white;
+	float: left;
+	width: 237px;
+	margin-bottom: 20px;	
+}
+footer .center address ul li a{
+	color: white;
+}
+.web-index img{
+	width: 450px;
+	height: 220px;
+	position: absolute;
+	right: 200px;
+	top: 870px;
+	border-radius: 15px;
+}

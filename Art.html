@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="zh">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<meta name="keywords" content="超清壁纸,2K壁纸,电脑壁纸,高清壁纸,桌面壁纸,4K壁纸,8K壁纸,桌面壁纸超清,图片,高清壁纸,电脑桌面壁纸,">
+		<meta name="description" content="XX壁纸专注提供免费壁纸,电脑壁纸,高清壁纸下载,壁纸图片素材,包含风景壁纸、美女壁纸">
+		<title>XX壁纸专注提供免费壁纸,电脑壁纸,高清壁纸下载,壁纸图片素材,包含风景壁纸、美女壁纸</title>
+		<!-- 引入layUI核心css文件 -->
+		<link rel="stylesheet" type="text/css" href="layui-v2.6.8/layui/css/layui.css" />
+		<!-- 引入layUI核心js文件(模块化引入) -->
+		<script src="layui-v2.6.8/layui/layui.js" type="text/javascript" charset="utf-8"></script>
+		<!-- 引入公共样式 -->
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<!-- 引入初始化样式 -->
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<!-- 更改标题图标 -->
+		<link rel="shortcut icon" href="bitbug_favicon.ico" />
+	</head>
+	<body>
+		<div class="header">
+			<!-- 导航栏 -->
+			<div id="nav">
+				<ul class="layui-nav" lay-filter="">
+					<!-- logo图标 -->
+					<a href="index.html"><img src="img/壁纸设置.png" class="imglogo"></a>
+					<li class="layui-nav-item "><a href="index.html">XX壁纸</a></li>
+					<!-- 设置弹出二级菜单 -->
+					<li class="layui-nav-item layui-this">
+						<a href="javascript:;">分类</a>
+						<dl class="layui-nav-child">
+							<!-- 二级菜单 -->
+							<dd><a href="city.html">城市</a></dd>
+							<dd><a href="entertainment.html">娱乐</a></dd>
+							<dd><a href="Art.html">艺术</a></dd>
+							<dd><a href="building.html">建筑</a></dd>
+							<dd><a href="Culture.html">文化</a></dd>
+							<dd><a href="comprehensive.html">综合</a></dd>
+						</dl>
+					</li>
+					<!-- 设置弹出二级菜单 -->
+					<li class="layui-nav-item">
+						<a href="javascript:;">壁纸尺寸</a>
+						<dl class="layui-nav-child">
+							<!-- 二级菜单 -->
+							<dd><a href="">不限</a></dd>
+							<dd><a href="">1080p</a></dd>
+							<dd><a href="">2K</a></dd>
+							<dd><a href="">4K</a></dd>
+							<dd><a href="">8k</a></dd>
+						</dl>
+					</li>
+					<li class="layui-nav-item"><a href="character.html">人物</a></li>
+					<li class="layui-nav-item"><a href="scenery.html">风景</a></li>
+					<li class="layui-nav-item"><a href="comic.html">动漫</a></li>
+					<li class="layui-nav-item"><a href="car.html">汽车</a></li>
+					</li>
+					<li class="layui-nav-item">
+						<input type="text" placeholder="寻找你想要的壁纸">
+						<a href="" class="btn">
+							<i class="layui-icon layui-icon-search"></i> 
+						</a>
+					</li>
+					<li class="layui-nav-item">
+						<a href="My.html">我的喜欢<span class="layui-badge">99+</span></a>
+					</li>
+					<!-- 设置弹出二级菜单 -->
+					<li class="layui-nav-item">
+						<a href="My.html"><img src="img/头像.png" class="layui-nav-img">我的</a>
+						<dl class="layui-nav-child">
+							<dd><a href="javascript:;">修改信息</a></dd>
+							<dd><a href="javascript:;">安全中心</a></dd>
+							<dd><a href="javascript:;">注销账号</a></dd>
+						</dl>
+					<li class="layui-nav-item"><a href="Sign in.html">登录</a></li>
+					<li class="layui-nav-item"><a href="register.html">注册</a></li>
+				</ul>
+			</div>
+			<!-- 导航栏end -->
+		</div>
+		<div class="banner">
+			<!-- 轮播图 -->
+			<div class="layui-carousel" id="test1">
+				<div carousel-item>
+					<img src="轮播图img/2c223b410fd04dc0a60e4ff15cadce7c.jpg">
+					<img src="轮播图img/004dd0de7a3e45608708b6955089a41c.png">
+					<img src="轮播图img/7d603ceb42864670a4990743421230d8.jpg">
+					<img src="轮播图img/9c70a3d482fc4bd7a0694aac9b532cb5.png">
+					<img src="轮播图img/9ca12051882a11ebb6edd017c2d2eca2.jpg">
+					<img src="轮播图img/8f18cf638ed843d586ea59a54ae79f9c.jpg">
+				</div>
+			</div>
+			<!-- 轮播图end -->
+		</div>
+		<!-- 小导航栏 -->
+		<div class="classify clearfix">
+			<a href="/4kfengjing/" title="8K风景图片">8K风景</a>
+			<a href="/4kmeinv/" title="8K美女图片">8K美女</a>
+			<a href="/4kyouxi/" title="8K游戏图片">8K游戏</a>
+			<a href="/4kdongman/" title="8K动漫图片">8K动漫</a>
+			<a href="/4kyingshi/" title="8K影视图片">8K影视</a>
+			<a href="/4kmingxing/" title="8K明星图片">8K明星</a>
+			<a href="/4kqiche/" title="8K汽车图片">8K汽车</a>
+			<a href="/4kdongwu/" title="8K动物图片">8K动物</a>
+			<a href="/4krenwu/" title="8K人物图片">8K人物</a>
+			<a href="/4kmeishi/" title="8K美食图片">8K美食</a>
+			<a href="/4kzongjiao/" title="8K宗教图片">8K二次元</a>
+			<a href="/4kbeijing/" title="8K背景图片">8K背景</a>
+		</div>
+		<!-- 小导航栏end -->
+		<!-- 回到顶部按钮 -->
+		<ul class="layui-fixbar" onclick="topFunction()" id="myBtn">
+			<li class="layui-icon layui-fixbar-top" lay-type="top" style="display: list-item;">&#xe604;</li>
+		</ul>
+		<!-- 放置图片列表 -->
+		<div class="img-box">
+			<div id="layer-photos-demo" class="layer-photos-demo">
+				<span ]id="layer-photos-demo"><img src="轮播图img/2c223b410fd04dc0a60e4ff15cadce7c.jpg"
+						llayer-src="img/185005-1550400605759e.jpg" alt="海军服美少女 美腿 白色袜子 望远镜 地图 4k动漫壁纸"></span>
+				<span id="layer-photos-demo"><img src="轮播图img/004dd0de7a3e45608708b6955089a41c.png"
+						llayer-src="img/185005-1550400605759e.jpg" alt="海军服美少女 美腿 白色袜子 望远镜 地图 4k动漫壁纸"></span>
+				<span id="layer-photos-demo"><img src="轮播图img/7d603ceb42864670a4990743421230d8.jpg"
+						llayer-src="img/185005-1550400605759e.jpg" alt="海军服美少女 美腿 白色袜子 望远镜 地图 4k动漫壁纸"></span>
+				<span id="layer-photos-demo"><img src="轮播图img/9c70a3d482fc4bd7a0694aac9b532cb5.png"
+						llayer-src="img/185005-1550400605759e.jpg" alt="海军服美少女 美腿 白色袜子 望远镜 地图 4k动漫壁纸"></span>
+				<span id="layer-photos-demo"><img src="轮播图img/9ca12051882a11ebb6edd017c2d2eca2.jpg"
+						llayer-src="img/185005-1550400605759e.jpg" alt="海军服美少女 美腿 白色袜子 望远镜 地图 4k动漫壁纸"></span>
+				<span id="layer-photos-demo"><img src="轮播图img/8f18cf638ed843d586ea59a54ae79f9c.jpg"
+						llayer-src="img/185005-1550400605759e.jpg" alt="海军服美少女 美腿 白色袜子 望远镜 地图 4k动漫壁纸"></span>
+				<span id="layer-photos-demo"><img src="img/174855-14970881351957.jpg"
+						llayer-src="img/185005-1550400605759e.jpg" alt="海军服美少女 美腿 白色袜子 望远镜 地图 4k动漫壁纸"></span>
+				<span id="layer-photos-demo"><img src="img/123945-14969831856c4d.jpg"
+						llayer-src="img/185005-1550400605759e.jpg" alt="海军服美少女 美腿 白色袜子 望远镜 地图 4k动漫壁纸"></span>
+				<span id="layer-photos-demo"><img src="img/150919-1620457759f946.jpg"
+						llayer-src="img/185005-1550400605759e.jpg" alt="海军服美少女 美腿 白色袜子 望远镜 地图 4k动漫壁纸"></span>
+				<span id="layer-photos-demo"><img src="img/185234-162392715411a1.jpg"
+						llayer-src="img/185005-1550400605759e.jpg" alt="海军服美少女 美腿 白色袜子 望远镜 地图 4k动漫壁纸"></span>
+				<span id="layer-photos-demo"><img src="img/190705-1608030425745a.jpg"
+						llayer-src="img/185005-1550400605759e.jpg" alt="海军服美少女 美腿 白色袜子 望远镜 地图 4k动漫壁纸"></span>
+				<span id="layer-photos-demo"><img src="img/191815-1622200695b5f4.jpg"
+						llayer-src="img/185005-1550400605759e.jpg" alt="海军服美少女 美腿 白色袜子 望远镜 地图 4k动漫壁纸"></span>
+				<span id="layer-photos-demo"><img src="img/193257-16215103778919.jpg"
+						llayer-src="img/185005-1550400605759e.jpg" alt="海军服美少女 美腿 白色袜子 望远镜 地图 4k动漫壁纸"></span>
+				<span id="layer-photos-demo"><img src="img/203429-1618835669e1dd.jpg"
+						llayer-src="img/185005-1550400605759e.jpg" alt="海军服美少女 美腿 白色袜子 望远镜 地图 4k动漫壁纸"></span>
+				<span id="layer-photos-demo"><img src="img/203954-1623933594b335.jpg"
+						llayer-src="img/185005-1550400605759e.jpg" alt="海军服美少女 美腿 白色袜子 望远镜 地图 4k动漫壁纸"></span>
+				<span id="layer-photos-demo"><img src="img/204405-1624279445aaca.jpg"
+						llayer-src="img/185005-1550400605759e.jpg" alt="海军服美少女 美腿 白色袜子 望远镜 地图 4k动漫壁纸"></span>
+				<span id="layer-photos-demo"><img src="img/204748-15101452688175.jpg"
+						llayer-src="img/185005-1550400605759e.jpg" alt="海军服美少女 美腿 白色袜子 望远镜 地图 4k动漫壁纸"></span>
+				<span id="layer-photos-demo"><img src="img/211606-162324456621c4.jpg"
+						llayer-src="img/185005-1550400605759e.jpg" alt="海军服美少女 美腿 白色袜子 望远镜 地图 4k动漫壁纸"></span>
+				<span id="layer-photos-demo"><img src="img/213555-1504532155031f.jpg"
+						llayer-src="img/185005-1550400605759e.jpg" alt="海军服美少女 美腿 白色袜子 望远镜 地图 4k动漫壁纸"></span>
+				<span id="layer-photos-demo"><img src="img/213609-161538336951a2.jpg"
+						llayer-src="img/185005-1550400605759e.jpg" alt="海军服美少女 美腿 白色袜子 望远镜 地图 4k动漫壁纸"></span>
+				<span id="layer-photos-demo"><img src="img/223339-1615732419fa74.jpg"
+						llayer-src="img/185005-1550400605759e.jpg" alt="海军服美少女 美腿 白色袜子 望远镜 地图 4k动漫壁纸"></span>
+				<span id="layer-photos-demo"><img src="img/224626-1624286786e75b.jpg"
+						llayer-src="img/185005-1550400605759e.jpg" alt="海军服美少女 美腿 白色袜子 望远镜 地图 4k动漫壁纸"></span>
+				<span id="layer-photos-demo"><img src="img/224716-16191892361adb.jpg"
+						llayer-src="img/185005-1550400605759e.jpg" alt="海军服美少女 美腿 白色袜子 望远镜 地图 4k动漫壁纸"></span>
+				<span id="layer-photos-demo"><img src="img/224844-16219541243306.jpg"
+						llayer-src="img/185005-1550400605759e.jpg" alt="海军服美少女 美腿 白色袜子 望远镜 地图 4k动漫壁纸"></span>
+				<span id="layer-photos-demo"><img src="img/225228-1621003948006e.jpg"
+						llayer-src="img/185005-1550400605759e.jpg" alt="海军服美少女 美腿 白色袜子 望远镜 地图 4k动漫壁纸"></span>
+				<span id="layer-photos-demo"><img src="img/230005-1617807605315e.jpg"
+						llayer-src="img/185005-1550400605759e.jpg" alt="海军服美少女 美腿 白色袜子 望远镜 地图 4k动漫壁纸"></span>
+				<span id="layer-photos-demo"><img src="img/230033-1594566033d4b0.jpg"
+						llayer-src="img/185005-1550400605759e.jpg" alt="海军服美少女 美腿 白色袜子 望远镜 地图 4k动漫壁纸"></span>
+				<span id="layer-photos-demo"><img src="img/230053-16212636535217.jpg"
+						llayer-src="img/185005-1550400605759e.jpg" alt="海军服美少女 美腿 白色袜子 望远镜 地图 4k动漫壁纸"></span>
+				<span id="layer-photos-demo"><img src="img/231734-1622647054de8b.jpg"
+						llayer-src="img/185005-1550400605759e.jpg" alt="海军服美少女 美腿 白色袜子 望远镜 地图 4k动漫壁纸"></span>
+				<span id="layer-photos-demo"><img src="img/231749-1618759069fad0.jpg"
+						llayer-src="img/185005-1550400605759e.jpg" alt="海军服美少女 美腿 白色袜子 望远镜 地图 4k动漫壁纸"></span>
+				<span id="layer-photos-demo"><img src="img/232017-16151304178002.jpg"
+						llayer-src="img/185005-1550400605759e.jpg" alt="海军服美少女 美腿 白色袜子 望远镜 地图 4k动漫壁纸"></span>
+				<span id="layer-photos-demo"><img src="img/232451-1615130691a429.jpg"
+						llayer-src="img/185005-1550400605759e.jpg" alt="海军服美少女 美腿 白色袜子 望远镜 地图 4k动漫壁纸"></span>
+				<span id="layer-photos-demo"><img src="img/232626-161858678603b6.jpg"
+						llayer-src="img/185005-1550400605759e.jpg" alt="海军服美少女 美腿 白色袜子 望远镜 地图 4k动漫壁纸"></span>
+				<span id="layer-photos-demo"><img src="img/232758-16185868780418.jpg"
+						llayer-src="img/185005-1550400605759e.jpg" alt="海军服美少女 美腿 白色袜子 望远镜 地图 4k动漫壁纸"></span>
+				<span id="layer-photos-demo"><img src="img/232820-1624030100b87e.jpg"
+						llayer-src="img/185005-1550400605759e.jpg" alt="海军服美少女 美腿 白色袜子 望远镜 地图 4k动漫壁纸"></span>
+				<span id="layer-photos-demo"><img src="img/153846-1614843526bb70.jpg"
+						llayer-src="img/185005-1550400605759e.jpg" alt="海军服美少女 美腿 白色袜子 望远镜 地图 4k动漫壁纸"></span>
+			</div>
+		</div>
+		<!-- 分页模块 -->
+		<div class="page"><a href="/index_1.html">1</a><a href="/index_2.html">2</a><a href="/index_3.html">3</a><a
+				href="/index_4.html">4</a><a href="/index_5.html">5</a><a href="/index_6.html">6</a><a
+				href="/index_7.html">7</a><a href="/index_8.html">8</a><a href="/index_9.html">9</a><a
+				href="/index_10.html">10</a><span class="slh">…</span><a href="/index_1273.html">1273</a><a
+				href="/index_2.html" class="prev">下一页&gt;</a><span class="text">共1273页&nbsp;&nbsp;到第</span><input
+				type="text" name="page"><span>页</span><a href="javascript:;" id="jump-url">确定</a></div>
+		</div>
+		<!-- 放置页脚 -->
+		<footer>
+			<div class="center">
+				<!-- 友情链接 -->
+				<div class="friend-links">
+					<h2>友情链接</h2>
+					<ul>
+						<li><a href="">XX壁纸</a></li>
+						<li><a href="">XX壁纸</a></li>
+						<li><a href="">XX壁纸</a></li>
+						<li><a href="">XX壁纸</a></li>
+						<li><a href="">XX壁纸</a></li>
+					</ul>
+				</div>
+				<!-- XX壁纸联系方式 -->
+				<address>
+					<h2>XX壁纸</h2>
+					<ul>
+						<li>地址: 贵州电子科技职业学院</li>
+						<li>电话: 1515159779</li>
+						<li>邮箱: 13263726378@123.com</li>
+						<li>邮编: 332420</li>
+						<li>Copyright &copy; 2021XX壁纸</li>
+						<!-- &copy;为版权符号© -->
+						<li>实训小组: 程俊华 田青云 吴勇军 娄秀阳 杜正德 何铧</li>
+					</ul>
+				</address>
+				<!-- 二维码模块 -->
+				<div class="web-index">
+					<img src="GIF动态关注二维码引流引导点击卡片.gif">
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
+<!-- 导航栏功能实现模块 -->
+<script>
+	//注意：导航 依赖 element 模块，否则无法进行功能性操作
+	layui.use('element', function() {
+		var element = layui.element;
+
+		//…
+	});
+</script>
+<!-- 轮播图控制模块 -->
+<script>
+	layui.use('carousel', function() {
+		var carousel = layui.carousel;
+		carousel.render({
+			elem: '#test1',
+			width: '100%',
+			height: '820px',
+			arrow: 'always',
+			anim: 'default', //轮播切换动画方式，可选值为：default（左右切换）updown（上下切换）fade（渐隐渐显切换）
+
+		});
+	});
+</script>
+<!-- 回到顶部按钮 -->
+<script type="text/javascript">
+	// 当网页向下滑动 20px 出现"返回顶部" 按钮
+	window.onscroll = function() {
+		scrollFunction()
+	};
+
+	function scrollFunction() {
+		console.log(121);
+		if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			document.getElementById("myBtn").style.display = "block";
+		} else {
+			document.getElementById("myBtn").style.display = "none";
+		}
+	}
+	// 点击按钮，返回顶部
+	function topFunction() {
+		document.body.scrollTop = 0;
+		document.documentElement.scrollTop = 0;
+	}
+</script>
+
+<!-- 点击图片全屏浏览 -->
+<script>
+	//调用示例
+	layer.photos({
+		photos: '#layer-photos-demo',
+		anim: 1 //0-6的选择，指定弹出图片动画类型，默认随机（请注意，3.0之前的版本用shift参数）
+	});
+</script>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<meta name="keywords" content="超清壁纸,2K壁纸,电脑壁纸,高清壁纸,桌面壁纸,4K壁纸,8K壁纸,桌面壁纸超清,图片,高清壁纸,电脑桌面壁纸,">
+		<meta name="description" content="XX壁纸专注提供免费壁纸,电脑壁纸,高清壁纸下载,壁纸图片素材,包含风景壁纸、美女壁纸">
+		<title>我的XX壁纸</title>
+		<!-- 引入layUI核心css文件 -->
+		<link rel="stylesheet" type="text/css" href="layui-v2.6.8/layui/css/layui.css" />
+		<!-- 引入layUI核心js文件(模块化引入) -->
+		<script src="layui-v2.6.8/layui/layui.js" type="text/javascript" charset="utf-8"></script>
+		<!-- 引入我的样式 -->
+		<link rel="stylesheet" type="text/css" href="css/My.css"/>
+		<!-- 更改标题图标 -->
+		<link rel="shortcut icon" href="bitbug_favicon.ico" />
+	</head>
+	<body>
+		<div class="layui-layout layui-layout-admin">
+			<div class="layui-header">
+				<div class="layui-logo layui-hide-xs layui-bg-black"><a href="index.html" class="Xx">XX壁纸</a></div>
+				<!-- 头部区域（可配合layui 已有的水平导航） -->
+				<ul class="layui-nav layui-layout-left">
+					<!-- 移动端显示 -->
+					<li class="layui-nav-item layui-show-xs-inline-block layui-hide-sm" lay-header-event="menuLeft">
+						<i class="layui-icon layui-icon-spread-left"></i>
+					</li>
+
+					<li class="layui-nav-item layui-hide-xs"><a href="">个人中心</a></li>
+					<li class="layui-nav-item layui-hide-xs"><a href="">社区</a></li>
+					<li class="layui-nav-item layui-hide-xs"><a href="">资源</a></li>
+					<li class="layui-nav-item">
+						<a href="javascript:;">世界</a>
+						<dl class="layui-nav-child">
+							<dd><a href="">找伙伴</a></dd>
+							<dd><a href="">讨论区</a></dd>
+							<dd><a href="">榜单</a></dd>
+						</dl>
+					</li>
+					<div class="layui-inline"> 
+						<input placeholder="搜索本站的一切" name="kws" autocomplete="off" value="" class="layui-input">
+					</div>
+					<button class="layui-btn"><i class="layui-icon layui-icon-search"></i></button>
+				</ul>
+				<ul class="layui-nav layui-layout-right">
+					<li class="layui-nav-item">
+						<a href="">我的喜欢<span class="layui-badge">99+</span></a>
+					</li>
+					<li class="layui-nav-item layui-hide layui-show-md-inline-block">
+						<a href="javascript:;">
+							<img src="img/头像.png"
+								class="layui-nav-img">
+							我的
+						</a>
+						<dl class="layui-nav-child">
+							<dd><a href="">个人中心</a></dd>
+							<dd><a href="">消息中心</a></dd>
+							<dd><a href="">退出登录</a></dd>
+							<dd><a href="register.html">注册新账号</a></dd>
+						</dl>
+					</li>
+					<li class="layui-nav-item" lay-header-event="menuRight" lay-unselect>
+						<a href="javascript:;">
+							<i class="layui-icon layui-icon-more-vertical"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="layui-side layui-bg-black">
+				<div class="layui-side-scroll">
+					<!-- 左侧导航区域（可配合layui已有的垂直导航） -->
+					<ul class="layui-nav layui-nav-tree" lay-filter="test">
+						<li class="layui-nav-item layui-nav-itemed">
+							<a class="" href="javascript:;">菜单一</a>
+							<dl class="layui-nav-child">
+								<dd><a href="javascript:;">上传你的壁纸</a></dd>
+								<dd><a href="javascript:;">menu 2</a></dd>
+								<dd><a href="javascript:;">menu 3</a></dd>
+								<dd><a href="">安全中心</a></dd>
+							</dl>
+						</li>
+						<li class="layui-nav-item">
+							<a href="javascript:;">菜单二</a>
+							<dl class="layui-nav-child">
+								<dd><a href="javascript:;">list 1</a></dd>
+								<dd><a href="javascript:;">list 2</a></dd>
+								<dd><a href="">超链接</a></dd>
+							</dl>
+						</li>
+						<li class="layui-nav-item"><a href="javascript:;">click menu item</a></li>
+						<li class="layui-nav-item"><a href="">福利</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="layui-body">
+				<!-- 内容主体区域 -->
+				<div class="layui-tab">
+				  <ul class="layui-tab-title">
+				    <li class="layui-this">网站设置</li>
+				    <li>用户管理</li>
+				    <li>权限分配</li>
+				    <li>商品管理</li>
+				    <li>订单管理</li>
+				  </ul>
+				  <div class="layui-tab-content">
+				    <div class="layui-tab-item layui-show">
+				      1. 高度默认自适应，也可以随意固宽。
+				      <br>2. Tab进行了响应式处理，所以无需担心数量多少。
+				    </div>
+				    <div class="layui-tab-item">内容2</div>
+				    <div class="layui-tab-item">内容3</div>
+				    <div class="layui-tab-item">内容4</div>
+				    <div class="layui-tab-item">内容5</div>
+				  </div>
+				</div>
+				<div class="layui-bg-gray">
+				  <div class="layui-row layui-col-space15">
+				    <div class="layui-col-md6">
+				      <div class="layui-panel">
+				        <div style="padding: 50px 30px; width: 800px; height: 300px;">
+							<h1>网站开发中，敬请期待！</h1>
+						</div>
+				      </div>   
+				    </div>
+				</div>
+			</div>
+
+			<div class="layui-footer">
+				<!-- 底部固定区域 -->
+				底部固定区域
+			</div>
+		</div>
+		
+	</body>
+</html>
+<script type="text/javascript">
+	layui.use(['element', 'layer', 'util'], function() {
+		var element = layui.element,
+			layer = layui.layer,
+			util = layui.util,
+			$ = layui.$;
+	
+		//头部事件
+		util.event('lay-header-event', {
+			//左侧菜单事件
+			menuLeft: function(othis) {
+				layer.msg('展开左侧菜单的操作', {
+					icon: 0
+				});
+			},
+			menuRight: function() {
+				layer.open({
+					type: 1,
+					content: '<div style="padding: 15px;">处理右侧面板的操作</div>',
+					area: ['260px', '100%'],
+					offset: 'rt', //右上角
+					anim: 5,
+					shadeClose: true
+				});
+			}
+		});
+	
+	});
+</script>
+		

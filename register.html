@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<meta name="keywords" content="超清壁纸,2K壁纸,电脑壁纸,高清壁纸,桌面壁纸,4K壁纸,8K壁纸,桌面壁纸超清,图片,高清壁纸,电脑桌面壁纸,">
+		<meta name="description" content="XX壁纸专注提供免费壁纸,电脑壁纸,高清壁纸下载,壁纸图片素材,包含风景壁纸、美女壁纸、">
+		<title>XX壁纸专注提供免费壁纸,电脑壁纸,高清壁纸下载,壁纸图片素材,包含风景壁纸、美女壁纸</title>
+		<!-- 引入layUI核心css文件 -->
+		<link rel="stylesheet" type="text/css" href="layui-v2.6.8/layui/css/layui.css" />
+		<!-- 引入layUI核心js文件(模块化引入) -->
+		<script src="layui-v2.6.8/layui/layui.js" type="text/javascript" charset="utf-8"></script>
+		<!-- 引入初始化样式 -->
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<!-- 更改标题图标 -->
+		<link rel="shortcut icon" href="bitbug_favicon.ico" />
+		<!-- 引入注册样式 -->
+		<link rel="stylesheet" type="text/css" href="css/register.css"/>
+	</head>
+	<body>
+		<!-- 头部导航栏 -->
+		<div class="header">
+			<!-- 导航栏 -->
+			<div id="nav">
+				<ul class="layui-nav" lay-filter="">
+					<!-- logo图标 -->
+					<img src="img/壁纸设置.png" class="imglogo">
+					<li class="layui-nav-item"><a href="index.html">XX壁纸</a></li>
+					<!-- 设置弹出二级菜单 -->
+					<li class="layui-nav-item">
+						<a href="javascript:;">分类</a>
+						<dl class="layui-nav-child">
+							<!-- 二级菜单 -->
+							<dd><a href="city.html">城市</a></dd>
+							<dd><a href="entertainment.html">娱乐</a></dd>
+							<dd><a href="Art.html">艺术</a></dd>
+							<dd><a href="building.html">建筑</a></dd>
+							<dd><a href="Culture.html">文化</a></dd>
+							<dd><a href="comprehensive.html">综合</a></dd>
+						</dl>
+					</li>
+					<!-- 设置弹出二级菜单 -->
+					<li class="layui-nav-item">
+						<a href="javascript:;">壁纸尺寸</a>
+						<dl class="layui-nav-child">
+							<!-- 二级菜单 -->
+							<dd><a href="">不限</a></dd>
+							<dd><a href="">1080p</a></dd>
+							<dd><a href="">2K</a></dd>
+							<dd><a href="">4K</a></dd>
+							<dd><a href="">8k</a></dd>
+						</dl>
+					</li>
+					<li class="layui-nav-item"><a href="character.html">人物</a></li>
+					<li class="layui-nav-item"><a href="scenery.html">风景</a></li>
+					<li class="layui-nav-item"><a href="comic.html">动漫</a></li>
+					<li class="layui-nav-item"><a href="car.html">汽车</a></li>
+					</li>
+					<li class="layui-nav-item">
+						<input type="text" placeholder="寻找你想要的壁纸">
+						<a href="" class="btn">
+							<i class="layui-icon layui-icon-search"></i> 
+						</a>
+					</li>
+					<li class="layui-nav-item">
+						<a href="My.html">我的喜欢<span class="layui-badge">99+</span></a>
+					</li>
+					<!-- 设置弹出二级菜单 -->
+					<li class="layui-nav-item">
+						<a href="My.html"><img src="img/头像.png" class="layui-nav-img">我的</a>
+						<dl class="layui-nav-child">
+							<dd><a href="javascript:;">修改信息</a></dd>
+							<dd><a href="javascript:;">安全中心</a></dd>
+							<dd><a href="javascript:;">注销账号</a></dd>
+						</dl>
+					<li class="layui-nav-item"><a href="Sign in.html">登录</a></li>
+					<li class="layui-nav-item layui-this"><a href="register.html">注册</a></li>
+				</ul>
+			</div>
+			<!-- 导航栏end -->
+		</div>
+		<!-- 注册模块 -->
+		<div class="maina">
+			<div class="main_a">
+				<div class="main_lf">
+					<img src="img/153846-1614843526bb70.jpg">
+					<h2>欢迎加入XX壁纸</h2>
+				</div>
+				<div class="main_b">
+					<form action="" method="get" name="myform" class="form">
+						<span>账号注册</span>
+						<div class="input_iphone">
+							<input type="text" placeholder="请输入手机号" id="iphone_number">
+							<span id="format">格式不正确</span>
+						</div>
+						<div class="input_pwd">
+							<input class="input100" type="password" name="pass" placeholder="登录密码" id="pass">
+							<span id="pwd">密码错误</span>
+						</div>
+						<div class="input_pwd">
+							<input class="input100" type="password" name="pass2" placeholder="再次确认登录密码" id="pass2">
+							<span id="pwd">密码错误</span>
+						</div>
+						<div class="register">
+							<button class="register_button">
+								注册
+							</button>
+						</div>
+					</form>
+					<div class="agreement">
+						<input type="checkbox" name="" id="" value="" />
+						同意协议并注册
+						<a href="">《了解用户协议》</a>
+					</div>
+					<div class="register_Sign">
+						<a href="Sign in.html">已有账号、立即登录</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		<!-- 注册模块end -->
+		<!-- 底部开始-->
+		<footer>
+			<div class="center">
+				<!-- 友情链接 -->
+				<div class="friend-links">
+					<h2>友情链接</h2>
+					<ul>
+						<li><a href="index.html">XX壁纸</a></li>
+						<li><a href="index.html">XX壁纸</a></li>
+						<li><a href="index.html">XX壁纸</a></li>
+						<li><a href="index.html">XX壁纸</a></li>
+						<li><a href="index.html">XX壁纸</a></li>
+					</ul>
+				</div>
+				<!-- XX壁纸联系方式 -->
+				<address>
+					<h2>XX壁纸</h2>
+					<ul>
+						<li>地址: 贵州电子科技职业学院</li>
+						<li>电话: 1515159779</li>
+						<li>邮箱: 13263726378@123.com</li>
+						<li>邮编: 332420</li>
+						<li>Copyright &copy; 2020-2023</li>
+						<!-- &copy;为版权符号© -->
+						<li>实训小组: 程俊华 田青云 吴勇军 娄秀阳 杜正德 何铧</li>
+					</ul>
+				</address>
+				<!-- 二维码模块 -->
+				<div class="web-index">
+					<img src="GIF动态关注二维码引流引导点击卡片.gif">
+				</div>
+			</div>
+		</footer>
+		<!-- 底部结束 -->
+	</body>
+</html>
+<script type="text/javascript">
+	var iphone_number = document.getElementById('iphone_number');
+	var format = document.getElementById('format');
+	iphone_number.onblur = function() {
+		if (this.value.length == 11) {
+			format.style.display = 'inline';
+			format.style.color = 'green';
+			format.innerHTML = '格式正确';
+		} else {
+			format.style.display = 'inline';
+			format.style.color = 'red';
+			format.innerHTML = '格式错误';
+		}
+	}
+</script>
+<script>
+	var p1 = document.getElementById("pass").value;
+	var p2 = document.getElementById("pass2").value;
+	p2.onblur = function() {
+		if (p1 != p2) {
+			alert("确认密码与密码输入不一致");
+			return false;
+		} else {
+			return true;
+		}
+	}
+</script>
+<script type="text/javascript">
+	var mima = document.getElementById('pass');
+	var pwd = document.getElementById('pwd');
+	mima.onblur = function() {
+		if (this.value.length >= 8) {
+			pwd.style.display = 'inline';
+			pwd.style.color = 'green';
+			pwd.innerHTML = '密码正确';
+		} else {
+			pwd.style.display = 'inline';
+			pwd.style.color = 'red';
+			pwd.innerHTML = '密码错误';
+		}
+	}
+</script>
